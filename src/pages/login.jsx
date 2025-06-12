@@ -22,7 +22,7 @@ function Login() {
       <div className="bg-white rounded-2xl shadow-lg w-full max-w-4xl flex overflow-hidden">
         
         <div className="w-full md:w-1/2 p-10">
-          <img src="/Vector.png" alt="Logo Tropa Digital" className="h-10 mb-6" />
+          <img src="/src/assets/Vector.png" alt="Logo Tropa Digital" className="h-10 mb-6" />
           <h2 className="text-2xl font-bold text-[#B5461F] mb-1">Bem-vindo de volta</h2>
           <p className="text-sm text-gray-500 mb-6">Entre com sua conta para acessar o painel.</p>
 

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import logo from '/public/Vector.png';
+import ilustracao from '/public/img1.png';
 
 function Login() {
   const navigate = useNavigate();
@@ -63,7 +64,7 @@ function Login() {
 
         
         <div className="w-1/2 m-3 mx-10  rounded-xl bg-[#c45224] flex items-center justify-center p-6">
-          <img src="./src/assets/img1.png" alt="Ilustração" className="w-full max-w-[400px] rounded-xl pt-5 mt-20 me-40 " />
+          <img src={ilustracao} alt="Ilustração" className="w-full max-w-[400px] rounded-xl pt-5 mt-20 me-40 " />
         </div>
       </div>
     </div>

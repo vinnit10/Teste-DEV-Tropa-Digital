@@ -1,6 +1,9 @@
 import React from 'react';
 import { FaCircle, FaSignOutAlt, FaUserEdit } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
+import logo from '/public/Vector.png';
+import avatar from '/public/avatar.jpg';
+
 
 function Dashboard() {
   const navigate = useNavigate();
@@ -16,7 +19,7 @@ function Dashboard() {
       <aside className="w-64 bg-white shadow-md flex flex-col justify-between">
         <div>
           <div className="p-6 border-b border-gray-200">
-            <img src="./src/assets/Vector.png" alt="Logo" className="h-8 mx-auto" />
+            <img src={logo} alt="Logo" className="h-8 mx-auto" />
           </div>
           <nav className="mt-6">
             <ul className="space-y-2">
@@ -29,7 +32,7 @@ function Dashboard() {
         </div>
         <div className="p-6 border-t border-gray-200">
           <div className="flex items-center space-x-3">
-            <img src="./src/assets/avatar.jpg" alt="Avatar" className="w-10 h-10 rounded-full" />
+            <img src={avatar} alt="Avatar" className="w-10 h-10 rounded-full" />
             <div>
               <p className="text-sm font-semibold">Vinicius Teixeira</p>
               <p className="text-xs text-gray-500">Administrador</p>
